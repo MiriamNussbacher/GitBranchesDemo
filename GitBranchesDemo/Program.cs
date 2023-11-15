@@ -18,6 +18,7 @@ if (app.Environment.IsDevelopment())//add middlewares
 
 app.UseHttpsRedirection();//Miriam is the winner
 
+
 app.UseAuthorization();
 
 app.MapControllers();
