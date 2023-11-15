@@ -16,7 +16,7 @@ if (app.Environment.IsDevelopment())//add middlewares
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection();//Miriam is the winner
 
 app.UseAuthorization();
 
