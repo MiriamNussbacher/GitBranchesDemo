@@ -16,10 +16,12 @@ if (app.Environment.IsDevelopment())//add middlewares
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();//Sari Fraiman
+app.UseHttpsRedirection();//Miriam is the winner
+
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+//return 404
